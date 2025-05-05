@@ -96,14 +96,47 @@
         width: 100%;
         justify-content: center;
       }
+
+      .social {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.social .button {
+  background-color: #ffffffcc;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+.social .button img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: white;
+  padding: 2px;
+}
+.social .button:hover {
+  background-color: #fff;
+  border-color: #bbb;
+  transform: translateY(-2px);
+}
     }
   </style>
 </head>
 <body>
   <img src="minimize-logo.svg" alt="Minimize Shop Logo" class="logo" />
-  <h1>Our Online Shop is Launching Soon</h1>
+  <h1>Online Shop is Launching Soon</h1>
   <p>
-    While our main shop gets ready, you can still shop with us on your favorite platforms:
+    While we get ready here, you can still shop with us on your favorite platforms:
   </p>
 
   <div class="buttons">
@@ -120,6 +153,12 @@
       Faire
     </a>
   </div>
+  <div class="social">
+  <a class="button" href="https://www.instagram.com/minimizetheshop" target="_blank" rel="noopener">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+    Follow on Instagram
+  </a>
+</div>
 
   <footer>
     &copy; 2025 Minimize
